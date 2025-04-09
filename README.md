@@ -1,12 +1,16 @@
 setup the repo structure
 -----
 in a batch file 
-´´´setup-folders.bat project_folder_name´´´bash
+´´´bash
+setup-folders.bat project_folder_name
+´´´
 
 - cd into the project folder  and run the scripts in the following order
-- ../build-eigen.bat
-- ../build-gflags.bat
-- ../build-glog.bat
-- ../build-ceres.bat
-- ../build-camodocal.bat
-- ../run-instrics-calib-example.bat
+´´´bash
+project_folder$..\build-eigen.bat
+project_folder$..\build-gflags.bat
+project_folder$..\build-glog.bat
+project_folder$..\build-ceres.bat
+project_folder$..\build-camodocal.bat
+project_folder$..\run-instrics-calib-example.bat
+´´´

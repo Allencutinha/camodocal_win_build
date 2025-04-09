@@ -1,12 +1,12 @@
 setup the repo structure
 -----
 in a batch file 
-´´´bash
+``` bash
 setup-folders.bat project_folder_name
-´´´
+```
 
 - cd into the project folder  and run the scripts in the following order
-``` bash
+
 project_folder$..\build-eigen.bat
 project_folder$..\build-gflags.bat
 project_folder$..\build-glog.bat

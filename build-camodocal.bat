@@ -7,7 +7,7 @@
 
 ::set proj_path=%cd%
 ::set third_party=%proj_path%/3rdparty
-::set opencv_path=c:/data/bin/opencv/build
+set opencv_path=D:\bin/opencv/build
 ::set cpp_flags=-G "Visual Studio 17 2022" -A x64 -DCMAKE_CXX_STANDARD=11  -DCMAKE_CXX_STANDARD_REQUIRED=ON
 ::
 ::cd %third_party%/eigen_build

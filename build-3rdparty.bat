@@ -1,4 +1,4 @@
-..\build-eigen.bat
-..\build-gflags.bat
-..\build-glog.bat
-..\build-ceres.bat
+call ..\build-eigen.bat
+call ..\build-gflags.bat
+call ..\build-glog.bat
+call ..\build-ceres.bat
